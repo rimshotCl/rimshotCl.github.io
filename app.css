@@ -1,0 +1,386 @@
+/* Links */
+a {
+    color: #1EBBD7;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+a:hover {
+    color: #147a8d
+}
+
+/* Barra de navegacion */
+.navbar-brand {
+    color: #1EBBD7;
+    font-weight: bold;
+}
+
+.borde-titulos {
+    border-bottom: 1px solid gray;
+    display: inline-block;
+    width: 400px;
+    margin-bottom: 1rem;
+}
+
+/* Botones */
+.btn {
+    background-color: #1EBBD7;
+    border: 1px solid #1EBBD7;
+}
+
+.btn:hover {
+    background-color: rgb(33, 37, 41);
+    border: 1px solid rgb(33, 37, 41);
+    color: #1EBBD7;
+
+}
+
+.contenedor-todos-los-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-todos-los-productos {
+    margin-left: 0;
+}
+
+/* Pagina de Inicio */
+
+/* Pagina Baquetas */
+.primera-columna-fila-1-baquetas,
+.segunda-columna-fila-1-baquetas,
+.tercera-columna-fila-1-baquetas,
+.cuarta-columna-fila-1-baquetas {
+    display: flex;
+    justify-content: center;
+}
+
+.primera-columna-fila-2-baquetas,
+.segunda-columna-fila-2-baquetas,
+.tercera-columna-fila-2-baquetas,
+.cuarta-columna-fila-2-baquetas {
+    display: flex;
+    justify-content: center;
+}
+
+.primera-columna-fila-3-baquetas {
+    display: flex;
+    justify-content: center;
+}
+
+/* Pagina Cables*/
+
+.primera-fila-cables {
+    margin-bottom: 5rem;
+}
+
+.primera-columna-fila-1-cables,
+.segunda-columna-fila-1-cables {
+    display: flex;
+    justify-content: center;
+}
+
+/* Pagina Accesorios de guitarra */
+
+.primera-fila-accesorios-de-guitarra {
+
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
+.segunda-columna-fila-1-accesorios-de-guitarra {
+    margin-top: 1rem;
+}
+
+.primera-columna-fila-1-accesorios-de-guitarra,
+.segunda-columna-fila-1-accesorios-de-guitarra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.primera-columna-fila-1,
+.segunda-columna-fila-1,
+.tercera-columna-fila-1,
+.cuarta-columna-fila-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.columna-1 {
+    border: 2px solid blue;
+    background-color: lightblue;
+}
+
+.col-iframe-rohema {
+    display: flex;
+    justify-content: center;
+}
+
+.retiro-gratis {
+    background-color: #1EBBD7;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.retiro-gratis div {
+    width: 80%;
+}
+
+.retiro-gratis h3 {
+    color: rgb(33, 37, 41);
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(33, 37, 41);
+    color: white;
+}
+
+.footer a {
+    color: #1EBBD7;
+}
+
+.footer a:hover {
+    color: #147a8d;
+}
+
+.bi-instagram {
+    margin-bottom: 1rem;
+}
+
+
+
+/* Paginas Productos */
+.container-productos h1 {
+    background-color: rgba(0, 0, 0, .03);
+    padding: 2rem;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(30, 187, 215)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(30, 187, 215)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.precio-productos {
+    color: #1EBBD7;
+}
+
+
+.primera-columna-limpieza-y-mantencion {
+    display: flex;
+    justify-content: center;
+}
+
+.row-video-youtube {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+}
+
+.row-video-youtube iframe {
+    /* border: 2px solid red; */
+    max-width: 100%;
+}
+
+
+/* Pagina Como Comprar */
+
+.ejemplo-de-compra {
+    font-size: 2rem;
+}
+
+.envios-sector-oriente {
+    font-weight: bold;
+}
+
+.envios-costo,
+.envios-plazo {
+    font-weight: bold;
+}
+
+/* Pagina Todos los Productos */
+
+/* Primera Fila Todos los Productos */
+
+.primera-columna-primera-fila-todos-los-productos,
+.segunda-columna-primera-fila-todos-los-productos,
+.tercera-columna-primera-fila-todos-los-productos,
+.cuarta-columna-primera-fila-todos-los-productos {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Segunda Fila Todos los Productos */
+
+.primera-columna-segunda-fila-todos-los-productos,
+.segunda-columna-segunda-fila-todos-los-productos,
+.tercera-columna-segunda-fila-todos-los-productos,
+.cuarta-columna-segunda-fila-todos-los-productos {
+
+    display: flex;
+    justify-content: center;
+    align-items: centerP;
+
+}
+
+/* Tercera Fila Todos los Productos */
+
+.primera-columna-tercera-fila-todos-los-productos,
+.segunda-columna-tercera-fila-todos-los-productos,
+.tercera-columna-tercera-fila-todos-los-productos,
+.cuarta-columna-tercera-fila-todos-los-productos {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cuarta Fila Todos los Productos */
+
+
+.primera-columna-cuarta-fila-todos-los-productos,
+.segunda-columna-cuarta-fila-todos-los-productos,
+.tercera-columna-cuarta-fila-todos-los-productos,
+.cuarta-columna-cuarta-fila-todos-los-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Quinta Fila Todos los Productos */
+
+.primera-columna-quinta-fila-todos-los-productos,
+.segunda-columna-quinta-fila-todos-los-productos,
+.tercera-columna-quinta-fila-todos-los-productos,
+.cuarta-columna-quinta-fila-todos-los-productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sexta Fila Todos los Productos */
+
+.primera-columna-sexta-fila-todos-los-productos,
+.segunda-columna-sexta-fila-todos-los-productos,
+.tercera-columna-sexta-fila-todos-los-productos,
+.cuarta-columna-sexta-fila-todos-los-productos {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Septima Fila Todos los Productos */
+
+.septima-fila-todos-los-productos {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primera-columna-septima-fila-todos-los-productos {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.segunda-columna-septima-fila-todos-los-productos {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pantallas Medium */
+
+@media (min-width: 768px) {
+
+
+    .productos-columna-derecha {
+        /* border: 2px solid blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .row-video-youtube {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .columna-h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-video-youtube {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .primera-columna-fila-1 {
+        justify-content: flex-start;
+    }
+
+    /* Pagina baquetas */
+
+    .primera-columna-fila-3-baquetas {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 1.2rem;
+
+    }
+
+    /* Pagina cables */
+
+    /* Pagina Accesorios de guitarra */
+    .segunda-columna-fila-1-accesorios-de-guitarra {
+        margin-top: 0;
+    }
+
+
+    /* Pagina Limpieza y mantención */
+    .primera-columna-limpieza-y-mantencion {
+        justify-content: flex-start;
+    }
+
+    /* Pagina Todos los Productos */
+    .primera-fila-todos-los-productos {
+
+        align-items: flex-start;
+    }
+
+    .segunda-fila-todos-los-productos {
+        align-items: flex-start;
+    }
+
+    .tercera-fila-todos-los-productos {
+
+        align-items: flex-start;
+    }
+
+
+}
